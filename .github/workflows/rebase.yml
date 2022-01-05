@@ -21,4 +21,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   run-checks:
-    uses: ${{ github.repository }}/.github/workflows/check.yml@main
+    uses: kuhar/actions-test/.github/workflows/check.yml@main
