@@ -19,6 +19,4 @@ jobs:
       - name: Automatic Rebase
         uses: cirrus-actions/rebase@1.4
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  run-checks:
-    uses: kuhar/actions-test/.github/workflows/check.yml@main
+          GITHUB_TOKEN: ${{ secrets.JAKUB_ACTIONS_PAT }}
