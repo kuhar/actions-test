@@ -1,0 +1,11 @@
+name: Check
+on: [pull_request]
+
+jobs:
+  run:
+    name: Check
+    runs-on: "ubuntu-20.04"
+    steps:
+    - name: Help
+      run: |
+        echo Checked
